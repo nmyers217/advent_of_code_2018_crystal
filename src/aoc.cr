@@ -5,10 +5,13 @@ end
 
 require "./day01"
 require "./day02"
+require "./day03"
 
 # TODO: command line argument parsing for running a particular problem
 # https://crystal-lang.org/api/0.31.1/OptionParser.html
 
-Day1.new.parse_input(Path.new(__DIR__, "day01", "input.txt")).solve
-puts
-Day2.new.parse_input(Path.new(__DIR__, "day02", "input.txt")).solve
+# Day1.new.parse_input(Path.new(__DIR__, "day01", "input.txt")).solve
+# puts
+# Day2.new.parse_input(Path.new(__DIR__, "day02", "input.txt")).solve
+# puts
+Day3.new.parse_input(Path.new(__DIR__, "day03", "input.txt")).solve
