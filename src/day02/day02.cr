@@ -14,7 +14,6 @@ class Day2 < Problem
     puts " ==> Loaded..."
     puts " ==> Beginning: #{@input[0..1]}..."
     puts " ==> End: #{@input[@input.size - 2..]}..."
-    puts ""
     self
   end
 
